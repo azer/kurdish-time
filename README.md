@@ -29,7 +29,7 @@ time('3h, 5r 6s')
 ## Install
 
 ```bash
-$ npm install turkish-time
+$ npm install kurdish-time
 ```
 
 <a name="ref" />
