@@ -1,0 +1,26 @@
+{
+  "name": "kurdish-time",
+  "version": "0.0.1",
+  "description": "Parses times written in simple Kurdish to unix time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "english-time": "*"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "time",
+    "relative",
+    "turkish"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/kurdish-time.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
