@@ -17,7 +17,7 @@ it('converts time written in kurdish to epoch', function(){
 
 it('ignores unrecognized patterns', function(){
   expect(time('her 1 miliçirke')).to.equal(1);
-  expect(time('foo, bar12 a3m 1 miliçirke + 5mç + 4mç hello world')).to.equal(10);
+  expect(time('foo, bar12 a3m 1 miliçirke + 5mç + 4mç roj baş')).to.equal(10);
 });
 
 it('accepts singular time units without numbers', function(){
